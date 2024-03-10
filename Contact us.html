@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8"> <!--Define the character set used:-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Website on all devices:-->
+    <meta name="description" content="This is the bit that will be displayed in the search index">
+    <!--Description of your web page:-->
+    <meta name="keywords" content="HTML, CSS, JavaScript"> <!--Define keywords for search engines:-->
+    <meta name="author" content="Karabo Tabane"> <!--Define the author of a page:-->
+    <title>Contact Me</title>
+
+    <style>
+        body {
+            font-family: Google Sans, Roboto, arial, sans-serif;
+            /*Helvetica,sans-serif; | Verdana,sans-serif;*/
+            font-size: 15px;
+            line-height: 1.0;
+            margin-left: 2.5%;
+            margin-right: 5%;
+            margin-bottom: 1px;
+        }
+
+        p,
+        ol,
+        ul {
+            line-height: 1.25;
+        }
+
+        a:link {
+            color: blue;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: blue;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: red;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>My Contact Details</h1>
+    <ul style="list-style-type:none;">
+        <li><strong>Address:</strong></li>
+        <ul style="list-style-type:none;">
+            <li>1 River Phoenix Crescent</li>
+            <li>Parklands</li>
+            <li>Johannesburg</li>
+            <li>2024</li>
+        </ul>
+        <li><strong>Mobile:</strong> +27 82 083 0840</li>
+        <li><strong>Email:</strong> info@example.com</li>
+    </ul>
+<hr>
+    <form action="mailto:karabo.tabane@gmail.com" method="post" enctype="text/plain">
+        <label for="name">Name</label>
+        <input type="text" name="yourName" value=""><br><br>
+
+        <label for="email">Email</label>
+        <input type="email" name="yourEmail" value=""><br><br>
+
+        <label>Your message:</label><br><br>
+        <textarea name="yourMessage" rows="10" cols="75"></textarea><br>
+
+        <input type="submit">
+    </form>
+    <br>
+    <a href="https://example.com">Website</a> | 
+    <a href="mailto:sales@example.com">Email</a> | 
+    <a href="tel:+27 072 073 0740">Phone</a> 
+    
+
+</body>
+
+</html>
